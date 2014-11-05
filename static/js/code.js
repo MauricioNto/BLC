@@ -3,7 +3,9 @@ $( document ).ready(function() {
 
     function animation(){
 
-         $(".Title").toggleClass('TitleE');
+        $(".Title").toggleClass('TitleE');
+        $(".Avatar-image").toggleClass("Avatar-animation");
+
             
               
     }
@@ -12,6 +14,7 @@ $( document ).ready(function() {
     $( ".Title" ).load(function() {
 
         $(".Title").toggleClass('TitleE');
+        $(".Avatar-image").toggleClass("Avatar-animation");
         setInterval(function(){ animation() }, 4000);
 
     });

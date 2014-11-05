@@ -8,17 +8,18 @@ azul = #1aa1ea;
 azulclaro = #29a9df;
 rojo = #EE3F24;
 rojovivo = #00FF66;
+azuloscuro = #2091e8;
 */
 
 
 /*BACKGROUND*/
 
 body {
-
+/*
 	background-image: url('../images/fondo.png');
 	background-repeat: repeat;
 	background-size: 50%;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 	font-weight: 400;
 
 }
@@ -28,8 +29,9 @@ body {
 
 .Header {
 	text-align: center;
-	background-color: #29a9df;
+	background-color: #2091e8;
 	overflow: hidden;
+	border-bottom: 5px solid white;
 }
 
 .Header-image {
@@ -59,23 +61,24 @@ body {
 .MainMenu {
 
 	background-color: white;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 700;
-	z-index: 2;
-	margin: 9px 10%;
-	width: 80%;
-	height: 50px;
-	line-height: 50px;
 	border-radius: 4px;
 	box-shadow: -9px 9px 16px -5px #00000D;
+	font-weight: 700;
+	font-size: 1em;
+	height: 50px;
+	line-height: 50px;
+	margin: 9px 2.5%;
+	text-align: center;
+	text-transform: uppercase;
+	width: 95%;
+	z-index: 2;
 	
 }
 
 .MainMenu-item
 {
 	display: inline;
-	margin: 5%;
+	margin: 3%;
 }
 
 .MainMenu-link 
@@ -99,13 +102,27 @@ body {
 
 
 
+
 /*BANNER*/
 
 .Banner {
 
-	height: 500px;
+	background-color: #3fdcaf;
+	border-bottom: 5px solid white;
+	font-family: 'Lobster', cursive;
+	padding: 7em 1em;
+}
+
+.BannerColor {
+
+	color: white;
+	font-size: 2.5em;
+	text-align: center;
+	width: 70%;
+	margin: 0 15%;
 
 }
+
 
 
 
@@ -113,26 +130,120 @@ body {
 
 .Profile {
 	
-	height: 500px;
-	background-color: #99CC33;
+	background-color: #6ae484;
+	border-bottom: 5px solid white;
+	text-align: center;
+	
+}
+
+.Profile-description {
+	
+	color: white;
+	padding: 1.5em 2em 3em 2em;
+	font-family: 'Dosis';
+	font-size: 1.4em;
+	text-align: justify;
+}
+
+
+
+
+/*EXPERIENCE*/
+
+.Experience {
+
+	background-color: #ffdf7f;
+	border-bottom: 5px solid white;
+	text-align: center;
+	padding: 2em 0;
 
 }
+
+.Feedback {
+
+	display: inline-block;
+	border-radius: 13px;
+	background-color: white;
+	margin: 2em;
+	width: 350px;
+	height: 240px;
+}
+
+.Feedback-description {
+	color: #2091e8;
+	width: 220px;
+	margin-left: 30%;
+	text-align: justify;
+	font-size: 1.1em;
+
+}
+
+.Avatar {
+	float: left;
+	margin:0;
+	padding: 61px 18px;
+}
+
+.Avatar-image{
+	
+	width: 82px;
+	border: 2px solid #6ae484;
+	border-radius: 40%;
+	transition: 2s;
+
+}
+.Avatar-animation {
+	
+	border-color: red;
+
+}
+
+
+
+/*CONTACT*/
+
+#Contact {
+
+	 background-color: #000066;
+	 height: 500px;
+	 text-align: center;
+	 color: white;
+}
+
+.Form {
+
+	font-size: 2em;
+	padding-top: 0.7em;
+
+
+}
+
+.Form h3 {
+	margin: 0;
+}
+
+/*.Form {
+
+	width: 100%;
+	height: 1125px;
+}*/
 
 
 /*FOOTER*/
 
 #Footer {
 
-	color: white;;
 	text-align: center;
 	height: 100px;
 	background-color: #EE3F24;
+	z-index: 2;
+
 
 }
 
 .Footer-image {
 
-	margin: 1em;
+	margin: 0 1em 1em 1em;
 
 }
 
