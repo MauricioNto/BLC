@@ -1,7 +1,4 @@
- 
-
-
-/*
+ /*
 verde = #99CC33;
 verdefluo = #FF3300;
 azul = #1aa1ea;
@@ -67,18 +64,18 @@ body {
 	font-size: 1em;
 	height: 50px;
 	line-height: 50px;
-	margin: 9px 2.5%;
+	margin: 9px 1%;
 	text-align: center;
 	text-transform: uppercase;
-	width: 95%;
+	width: 98%;
 	z-index: 2;
-
+	
 }
 
 .MainMenu-item
 {
 	display: inline;
-	margin: 3%;
+	margin: 2%;
 }
 
 .MainMenu-link 
@@ -251,19 +248,39 @@ body {
 	
 	width:100px;
 	margin-top: 2em;
-}
-
-
-@media screen and (min-width:401px){
-
-
-
-
-
-
 
 }
 
+/*RESPONSIVE*/
+
+
+@media screen and (min-width:402px){
+
+
+	.Banner {
+
+		padding: 7em 1em;
+	}
+
+	.Feedback {
+
+		display: inline-block;
+		border-radius: 13px;
+		background-color: white;
+		margin: 2em;
+		width: 350px;
+		height: 240px;
+	}
+
+	.Feedback-description {
+
+		margin-left: 30%;
+		text-align: justify;
+		font-size: 1.1em;
+
+	}
+
+}
 
 
 
