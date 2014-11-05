@@ -72,7 +72,7 @@ body {
 	text-transform: uppercase;
 	width: 95%;
 	z-index: 2;
-		
+
 }
 
 .MainMenu-item
@@ -110,7 +110,7 @@ body {
 	background-color: #3fdcaf;
 	border-bottom: 5px solid white;
 	font-family: 'Lobster', cursive;
-	padding: 7em 1em;
+	padding: 3em 1em;
 }
 
 .BannerColor {
@@ -251,5 +251,31 @@ body {
 	
 	width:100px;
 	margin-top: 2em;
+}
+
+
+@media screen and (min-width:401px){
+
+
+
+
+
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
