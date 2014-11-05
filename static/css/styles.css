@@ -158,18 +158,19 @@ body {
 
 .Feedback {
 
-	display: inline-block;
 	border-radius: 13px;
 	background-color: white;
-	margin: 2em;
-	width: 350px;
+	margin: 5%;
+	width: 90%;
 	height: 240px;
 }
 
 .Feedback-description {
+
 	color: #2091e8;
 	width: 220px;
 	margin-left: 30%;
+	padding-top: 2%;
 	text-align: justify;
 	font-size: 1.1em;
 
@@ -192,6 +193,7 @@ body {
 .Avatar-animation {
 	
 	border-color: red;
+	transform: rotateY(180deg);
 
 }
 
@@ -265,8 +267,6 @@ body {
 	.Feedback {
 
 		display: inline-block;
-		border-radius: 13px;
-		background-color: white;
 		margin: 2em;
 		width: 350px;
 		height: 240px;
@@ -276,7 +276,6 @@ body {
 
 		margin-left: 30%;
 		text-align: justify;
-		font-size: 1.1em;
 
 	}
 
