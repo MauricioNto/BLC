@@ -105,7 +105,8 @@ body {
 .Banner {
 
 	/*background-color: #3fdcaf;*/
-	background-color: #b2f1df;
+	/*background-color: #b2f1df;*/
+	background-color: #99ccff;
 	border-bottom: 5px solid white;
 	font-family: 'Lobster', cursive;
 	padding: 3em 1em;
@@ -113,7 +114,7 @@ body {
 
 .BannerColor {
 	
-	color: #29a9df;
+	color: white;
 	font-size: 2.5em;
 	text-align: center;
 	width: 70%;
@@ -151,7 +152,7 @@ body {
 
 .Experience {
 
-	background-color: #99ccff;
+	background-color: #b2f1df;
 	border-bottom: 5px solid white;
 	text-align: center;
 	padding: 2em 0;
