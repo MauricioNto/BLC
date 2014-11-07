@@ -248,6 +248,13 @@ body {
 
 .MessageFomr{}
 
+.MessageBox{
+	
+	height: 100px;
+	max-height: 100px;
+
+}
+
 .Button {
 
 	padding: 5px 10px;
