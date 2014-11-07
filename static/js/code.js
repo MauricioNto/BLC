@@ -29,7 +29,9 @@ $( document ).ready(function() {
         $target = $(target);
 
        $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
+
+          'scrollTop': $target.offset().top - 45
+
        }, 900, 'swing');
 
     });
@@ -41,20 +43,19 @@ $( document ).ready(function() {
 
 	    if ($(this).scrollTop()>210 )
     	{
-        	$(".Title").fadeOut(300);
-            $(".MainMenu").addClass('Fixed');
+
+          $(".MainMenu").addClass('Fixed');
                    
         	
      	}
     	else
      	{
 
-      		$(".Title").fadeIn(500);
           $(".MainMenu").removeClass('Fixed');
                 
      	}
 
-	 });
+	   });
 
  
 });

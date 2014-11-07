@@ -25,6 +25,7 @@ body {
 /*HEADER*/
 
 .Header {
+
 	text-align: center;
 	background-color: #f4f9ff;
 	overflow: hidden;
@@ -36,7 +37,6 @@ body {
 	padding: 0;
 	margin: 1em;
 
-	
 }
 
 .Title {
@@ -93,7 +93,7 @@ body {
 .Fixed {
 
 	position: fixed;
-	top: 0;
+	top: 2px;
 	margin-top: 0;
 }
 
@@ -106,10 +106,11 @@ body {
 
 	/*background-color: #3fdcaf;*/
 	/*background-color: #b2f1df;*/
-	background-color: #99ccff;
+	background-color: #96eca8;
 	border-bottom: 5px solid white;
-	font-family: 'Lobster', cursive;
+	font-family: 'Lobster', 'cursive';
 	padding: 3em 1em;
+	text-shadow: 2px 2px 2px #29a9df;
 }
 
 .BannerColor {
@@ -130,7 +131,7 @@ body {
 .Profile {
 	
 	/*background-color: #6ae484;*/
-	background-color: #96eca8;
+	background-color: #99ccff;
 	border-bottom: 5px solid white;
 	text-align: center;
 	
@@ -138,11 +139,12 @@ body {
 
 .Profile-description {
 	
-	color: white;
+	color: #4595e5;
 	padding: 1.5em 2em 3em 2em;
 	font-family: 'Dosis';
 	font-size: 1.4em;
 	text-align: justify;
+	text-shadow: 1px 0px 1px #cccccc;
 }
 
 
@@ -206,29 +208,55 @@ body {
 
 #Contact {
 
-	 background-color: #f8b2a7;
-	 height: 500px;
+	 background-color: #f6f4fd;
 	 text-align: center;
-	 color: #96eca8;
+	 color: #544b76;
+	 border-bottom: 5px solid white;
+	 font-size: 1.2em;
+	 padding-bottom: 2em;
+
 }
 
 .Form {
 
-	font-size: 2em;
 	padding-top: 0.7em;
-
 
 }
 
 .Form h3 {
+
+	font-size: 2em;
 	margin: 0;
+	margin-bottom: 0.5em;
 }
 
-/*.Form {
+.Box{
 
-	width: 100%;
-	height: 1125px;
-}*/
+	width: 90%;
+	margin: 0.5em 0.7em;
+	border-radius: 10px;
+	padding: 0.3em;
+}
+
+.Nameform {
+
+}
+
+.EmailForm{}
+
+.TelephoneForm{}
+
+.MessageFomr{}
+
+.Button {
+
+	padding: 5px 10px;
+	background-color: #eaf5eb;
+	border-radius: 5px;
+	
+}
+
+
 
 
 /*FOOTER*/
@@ -237,9 +265,9 @@ body {
 
 	text-align: center;
 	height: 100px;
-	background-color: #ef5239;
+	background-color: #766e91;
 	z-index: 2;
-
+	
 
 }
 
