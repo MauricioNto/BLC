@@ -1,3 +1,53 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot?-ilgmmv');
+	src:url('../fonts/icomoon.eot?#iefix-ilgmmv') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-ilgmmv') format('woff'),
+		url('../fonts/icomoon.ttf?-ilgmmv') format('truetype'),
+		url('../fonts/icomoon.svg?-ilgmmv#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-world:before {
+	content: "\e605";
+}
+.icon-envelope2:before {
+	content: "\e600";
+}
+.icon-share:before {
+	content: "\e601";
+}
+.icon-facebook:before {
+	content: "\e602";
+}
+.icon-instagram:before {
+	content: "\e603";
+
+}
+.icon-twitter:before {
+	content: "\e604";
+
+} 
+
+
+
+
  /*
 verde = #99CC33;
 verdefluo = #FF3300;
@@ -85,7 +135,7 @@ body {
 }
 
 .MainMenu-list {
-
+	
 	margin: 0;
 	padding: 0;
 }
@@ -97,8 +147,54 @@ body {
 	margin-top: 0;
 }
 
+.Social-link {
+	text-decoration: none;
+	color: #29a9df;
 
+}
 
+/*SOCIAL-MENU*/
+
+.SocialMenu {
+
+	text-transform: uppercase;
+	width: 125px;
+	margin: -5px 1% 9px 65%;
+	/*display: none;*/
+	background-color: rgba(255,255,255,0.55);
+	box-shadow: -9px 9px 16px -5px #00000D;
+	border-radius: 4px;
+	z-index: 2;
+	padding: 4px;
+	font-size: 1.2em;
+}
+
+.SocialMenu-list {
+
+	margin: 0;
+	padding: 0;
+
+}
+
+.SocialMenu-link 
+{
+	text-decoration: none;
+	color: #29a9df;
+	margin-right: 1em;
+}
+
+.SocialMenu-item
+{
+	display: inline;
+	margin: 2%;
+}
+
+.FixedSocial {
+
+	position: fixed;
+	top: 60px;
+	
+}
 
 /*BANNER*/
 
@@ -219,14 +315,14 @@ body {
 
 .Form {
 
-	padding-top: 0.7em;
+	padding-top: 1em;
 	text-align: center;
 }
 
 .Form h3 {
 
 	font-size: 2em;
-	margin: 0;
+	margin: 1em;
 	margin-bottom: 0.5em;
 }
 

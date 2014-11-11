@@ -34,6 +34,16 @@ $( document ).ready(function() {
 
        }, 900, 'swing');
 
+      
+    });
+
+
+    $('.Social-link').on('click', function(e) {
+
+        e.preventDefault();
+
+        $('.SocialMenu').slideToggle('slow');
+
     });
 
  
@@ -45,6 +55,7 @@ $( document ).ready(function() {
     	{
 
           $(".MainMenu").addClass('Fixed');
+          $(".SocialMenu").addClass('FixedSocial');
                    
         	
      	}
@@ -52,6 +63,8 @@ $( document ).ready(function() {
      	{
 
           $(".MainMenu").removeClass('Fixed');
+          $(".SocialMenu").removeClass('FixedSocial');
+
                 
      	}
 
