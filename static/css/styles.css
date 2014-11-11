@@ -220,7 +220,7 @@ body {
 .Form {
 
 	padding-top: 0.7em;
-
+	text-align: center;
 }
 
 .Form h3 {
@@ -251,7 +251,7 @@ body {
 .MessageBox{
 	
 	height: 100px;
-	max-height: 100px;
+	resize: none;
 
 }
 
@@ -319,7 +319,39 @@ body {
 
 }
 
+@media screen and (min-width:600px){
 
+	
+
+	.Box{
+		
+		margin: 0.5em 0.7em;
+		width: 95%;
+		
+	}
+
+	.FormState {
+		
+		margin: 0 10%;
+	}
+
+	.Label {
+		
+		float: left; 
+		margin-left: 20px;
+
+	}
+	
+}
+
+@media screen and (min-width:850px){
+
+	.FormState {
+		
+		margin: 0 25%;
+	}
+
+}
 
 
 

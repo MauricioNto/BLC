@@ -127,35 +127,37 @@
 			
 			<h3>CONTACTO</h3>
 
-				<form name="contactform" method="post" action="send_form_email.php">
+				<form class="FormState" name="contactform" method="post" action="send_form_email.php">
 
 					<div class="NameForm">
 						
-						<label for="name">NOMBRE</label>
+						<label class="Label" for="name">NOMBRE</label>
 
 						<input  type="text" name="name" class="Box" id="Name" autofocus required>
 
 					</div>
 
-					<div class="EmailForm">
-
-						<label for="email">EMAIL</label>
-	 				  	
-	 					<input  type="email" name="email" class="Box" id="Email" required>
-
-	 				</div>
+					
 
 	 				<div class="TelephoneForm">
 
-	 					<label for="telephone">TELÉFONO</label>
+	 					<label class="Label" for="telephone">TELÉFONO</label>
 
 						<input  type="tel" name="telephone" class="Box" id="Telephone" required>
 
 					</div>
 
+					<div class="EmailForm">
+
+						<label class="Label" for="email">EMAIL</label>
+	 				  	
+	 					<input  type="email" name="email" class="Box" id="Email" required>
+
+	 				</div>
+
 					<div class="MessageForm">
 
-						<label for="message" required>MENSAJE</label>
+						<label class="Label" for="message" required>MENSAJE</label>
  
  						<textarea  name="message" class="Box MessageBox"></textarea>
 
