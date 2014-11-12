@@ -160,7 +160,7 @@ body {
 	text-transform: uppercase;
 	width: 125px;
 	margin: -5px 1% 9px 65%;
-	/*display: none;*/
+	display: none;
 	background-color: rgba(255,255,255,0.55);
 	box-shadow: -9px 9px 16px -5px #00000D;
 	border-radius: 4px;
